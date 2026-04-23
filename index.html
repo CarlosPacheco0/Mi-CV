@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Carlos Mauricio Pacheco Sanguino</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body class="p-0 md:p-4 lg:p-8">
+
+    <div class="main-container max-w-5xl mx-auto bg-white shadow-2xl flex flex-col md:flex-row overflow-hidden min-h-screen rounded-xl border border-gray-200">
+        
+        <!-- SIDEBAR -->
+        <aside class="sidebar w-full md:w-1/3 p-8 flex flex-col">
+            <div class="text-center mb-10">
+                <div class="w-44 h-44 rounded-full border-4 border-slate-700 mx-auto mb-6 overflow-hidden bg-slate-800 flex items-center justify-center shadow-inner">
+                     <img src="./images/perfil-carlos-pacheco.png" alt="">
+                </div>
+                <h1 class="text-2xl font-black leading-tight tracking-tighter uppercase text-white">Carlos Mauricio<br>Pacheco S.</h1>
+                <p class="text-blue-400 font-bold mt-2 text-sm tracking-widest uppercase">Software Developer</p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- CONTACTO -->
+                <section>
+                    <h3 class="text-[10px] font-black uppercase tracking-[0.2em] mb-4 text-slate-500 border-b border-slate-800 pb-2">Información de Contacto</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-center group">
+                            <span class="w-7 h-7 rounded bg-slate-800 flex items-center justify-center mr-3 group-hover:bg-blue-600 transition-colors">
+                                <i class="fas fa-phone text-[10px]"></i>
+                            </span>
+                            <span>311 809 2829</span>
+                        </li>
+                        <li class="flex items-center group">
+                            <span class="w-7 h-7 rounded bg-slate-800 flex items-center justify-center mr-3 group-hover:bg-blue-600 transition-colors">
+                                <i class="fas fa-envelope text-[10px]"></i>
+                            </span>
+                            <span class="text-[11px] break-all">mauriciopacheco0101@gmail.com</span>
+                        </li>
+                        <li class="flex items-center group">
+                            <span class="w-7 h-7 rounded bg-slate-800 flex items-center justify-center mr-3 group-hover:bg-blue-600 transition-colors">
+                                <i class="fas fa-map-marker-alt text-[10px]"></i>
+                            </span>
+                            <span class="text-xs">Ocaña, Norte de Santander</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- HABILIDADES TÉCNICAS -->
+                <section>
+                    <h3 class="text-[10px] font-black uppercase tracking-[0.2em] mb-2 text-slate-500 border-b border-slate-800 pb-2">Habilidades Técnicas</h3>
+                    
+                    <div>
+                        <p class="skill-group-title">Backend & Frameworks</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-badge">PHP</span>
+                            <span class="skill-badge">Laravel</span>
+                            <span class="skill-badge">Node.js</span>
+                            <span class="skill-badge">ScriptCase</span>
+                            <span class="skill-badge">POO</span>
+                        </div>
+
+                        <p class="skill-group-title">Frontend</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-badge">JavaScript (ES6+)</span>
+                            <span class="skill-badge">Angular</span>
+                            <span class="skill-badge">HTML5 / CSS3</span>
+                        </div>
+
+                        <p class="skill-group-title">Bases de Datos</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-badge">SQL Server</span>
+                            <span class="skill-badge">PostgreSQL</span>
+                            <span class="skill-badge">MySQL</span>
+                            <span class="skill-badge">Query Optimization</span>
+                        </div>
+
+                        <p class="skill-group-title">Herramientas & Entornos</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-badge">IIS (Server)</span>
+                            <span class="skill-badge">AWS (EC2/RDS)</span>
+                            <span class="skill-badge">Sourcetree / Git</span>
+                            <span class="skill-badge">Secure Dev</span>
+                            <span class="skill-badge">Agile</span>
+                            <span class="skill-badge">Multi-tenant</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- IDIOMAS -->
+                <section>
+                    <h3 class="text-[10px] font-black uppercase tracking-[0.2em] mb-2 text-slate-500 border-b border-slate-800 pb-2">Idiomas</h3>
+                    <div class="text-sm space-y-1">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs">Español</span>
+                            <span class="text-blue-400 font-bold text-[9px]">NATIVO</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs">Inglés</span>
+                            <span class="text-slate-500 font-bold text-[9px]">TÉCNICO</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </aside>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="content-area w-full md:w-2/3 p-8 md:p-12">
+            
+            <!-- PERFIL PROFESIONAL -->
+            <section class="mb-10">
+                <h2 class="section-title"><i class="fas fa-id-badge mr-3 text-blue-600"></i>Perfil Profesional</h2>
+                <p class="text-slate-600 leading-relaxed text-sm text-justify">
+                    Desarrollador de Software con más de 4 años de experiencia en desarrollo web. Especialista en la creación de soluciones robustas utilizando PHP y JavaScript moderno. Experiencia sólida en la gestión de bases de datos relacionales (PostgreSQL, SQL Server, MySQL). Actualmente cursando Ingeniería de Sistemas, con un enfoque en el desarrollo seguro y la escalabilidad de plataformas multi-tenant.
+                </p>
+            </section>
+
+            <!-- EXPERIENCIA LABORAL -->
+            <section class="mb-10">
+                <h2 class="section-title"><i class="fas fa-briefcase mr-3 text-blue-600"></i>Trayectoria Laboral</h2>
+                
+                <div class="experience-border">
+                    <div class="flex justify-between items-start flex-wrap gap-2 mb-2">
+                        <div>
+                            <h3 class="text-lg font-extrabold text-slate-800">World Poss Solutions</h3>
+                            <p class="text-blue-600 font-bold text-xs uppercase tracking-wider">Software Developer</p>
+                        </div>
+                        <span class="text-[10px] font-black text-slate-500 bg-slate-100 border border-slate-200 px-3 py-1 rounded-full uppercase">Feb 2022 — Presente</span>
+                    </div>
+                    
+                    <ul class="space-y-2 text-xs text-slate-600 list-none mt-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 mr-2 mt-1"></i>
+                            <span>Desarrollo integral de una solución multi-comercio para el sector gastronómico (pedidos, mesas y reservas) utilizando <strong>ScriptCase</strong> como herramienta base (PHP, HTML, CSS y JavaScript).</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 mr-2 mt-1"></i>
+                            <span>Diseño y administración de bases de datos en <strong>SQL Server</strong> y <strong>PostgreSQL</strong>, asegurando la integridad y disponibilidad de la información en entornos transaccionales.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 mr-2 mt-1"></i>
+                            <span>Configuración y administración de despliegues en servidores <strong>IIS</strong> (Internet Information Services) para ambientes locales y de desarrollo.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 mr-2 mt-1"></i>
+                            <span>Generación y preparación de paquetes técnicos para la promoción de aplicaciones a ambientes productivos, garantizando la estabilidad del software.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right text-blue-500 mr-2 mt-1"></i>
+                            <span>Gestión de control de versiones, commits y repositorios mediante el uso de la herramienta <strong>Sourcetree</strong>.</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- FORMACIÓN Y CERTIFICACIONES -->
+            <section>
+                <h2 class="section-title"><i class="fas fa-graduation-cap mr-3 text-blue-600"></i>Formación & Certificaciones</h2>
+                
+                <div class="mb-6 space-y-3">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-blue-50 p-1.5 rounded text-blue-700 font-black text-[9px] w-14 text-center">ACTUAL</div>
+                        <div>
+                            <h4 class="text-sm font-bold text-slate-800">Ingeniería de Sistemas</h4>
+                            <p class="text-[11px] text-slate-500 uppercase font-medium">UNAD - Universidad Nacional Abierta y a Distancia</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <div class="bg-slate-100 p-1.5 rounded text-slate-700 font-black text-[9px] w-14 text-center">2022</div>
+                        <div>
+                            <h4 class="text-sm font-bold text-slate-800">Técnico en Programación de Software</h4>
+                            <p class="text-[11px] text-slate-500 uppercase font-medium">SENA (Egresado Agosto 2022)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+                    <div class="cert-card p-3 rounded-lg">
+                        <span class="text-[8px] font-black text-blue-600 uppercase block mb-1">Oct 2024</span>
+                        <h5 class="text-[11px] font-bold text-slate-800 leading-tight">Introducción al Desarrollo Seguro</h5>
+                        <p class="text-[10px] text-slate-500">Backtrack Academy</p>
+                    </div>
+
+                    <div class="cert-card p-3 rounded-lg">
+                        <span class="text-[8px] font-black text-blue-600 uppercase block mb-1">Oct 2022</span>
+                        <h5 class="text-[11px] font-bold text-slate-800 leading-tight">JavaScript Moderno Guía Definitiva</h5>
+                        <p class="text-[10px] text-slate-500">Udemy (46 Horas)</p>
+                    </div>
+
+                    <div class="cert-card p-3 rounded-lg">
+                        <span class="text-[8px] font-black text-blue-600 uppercase block mb-1">May 2022</span>
+                        <h5 class="text-[11px] font-bold text-slate-800 leading-tight">Aplicaciones Web con PHP</h5>
+                        <p class="text-[10px] text-slate-500">SENA (80 Horas)</p>
+                    </div>
+
+                    <div class="cert-card p-3 rounded-lg">
+                        <span class="text-[8px] font-black text-blue-600 uppercase block mb-1">Dic 2021</span>
+                        <h5 class="text-[11px] font-bold text-slate-800 leading-tight">Fundamentos de Programación</h5>
+                        <p class="text-[10px] text-slate-500">SENA (80 Horas)</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- BOTÓN DE ACCIÓN (Oculto al imprimir) -->
+    <div class="max-w-5xl mx-auto text-center py-10 no-print">
+        <button onclick="window.print()" class="bg-slate-900 hover:bg-blue-700 text-white font-black py-4 px-12 rounded-full shadow-2xl transition-all transform hover:scale-105 flex items-center justify-center mx-auto">
+            <i class="fas fa-file-pdf mr-3 text-xl"></i> GUARDAR COMO PDF
+        </button>
+    </div>
+
+</body>
+</html>
