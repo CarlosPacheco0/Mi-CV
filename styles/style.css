@@ -71,6 +71,64 @@ body {
   transition: all 0.2s ease;
 }
 
+/* ESTILOS PARA LA VERSION ATS OPTIMIZADA */
+
+#cv-ats {
+  font-family: "Inter", Arial, sans-serif;
+  color: #1e293b;
+  max-width: 850px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.ats-header {
+  border-bottom: 3px solid #0f172a;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.ats-section-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0f172a;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #e2e8f0;
+  margin: 25px 0 15px 0;
+  padding-bottom: 5px;
+}
+.ats-job-title {
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 1rem;
+}
+.ats-company {
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.ats-date {
+  color: #64748b;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    padding: 0 !important;
+  }
+  /* Solo imprime la versión activa */
+  #cv-it.hidden {
+    display: none !important;
+  }
+  #cv-ats.hidden {
+    display: none !important;
+  }
+}
+
 /* CONFIGURACIÓN DE IMPRESIÓN PROFESIONAL PARA PDF */
 @media print {
   @page {
